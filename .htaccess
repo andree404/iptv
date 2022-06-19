@@ -1,5 +1,0 @@
-<IfModule mod_rewrite.c> 
-RewriteEngine on 
-RewriteCond %{REQUEST_FILENAME} !-d 
-RewriteRule ^(.*)\.m3u8$ $1.php [nc] 
-</IfModule>
